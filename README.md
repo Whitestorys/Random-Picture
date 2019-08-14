@@ -1,7 +1,7 @@
 # Random-Picture
 随机图片api    
-实验地址:  <http://miku.ueuo.com/>*(无稳定性保证)*
-
+实验地址:  <http://miku.ueuo.com/>*(无稳定性保证)*  
+注意:[show.php](http://miku.ueuo.com/show.php)用于展示所有图片，如若不需要，可以删除
 
 
 ## 访问[index.php](http://miku.ueuo.com/)
