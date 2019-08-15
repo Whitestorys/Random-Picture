@@ -36,6 +36,7 @@ $(function() {
    <button class="get-started button button-primary button-large">详情</button> 
    <a class="scroll-down" href="#"></a> 
   </header> 
+   <section>
 <div class="row">
   <?php 
 $list = file("url.txt");
@@ -54,7 +55,7 @@ for ($x = 0; $x < $length; $x++) {
 */
 ?>
 </div>
-
+</section>
 <footer>
   <p class="copyright align-center">Made by <a href="https://blog.poo.li/">Crazy白茫茫</a>.  <a href="https://github.com/Crazy-White/Random-Picture">Github(Source Code)</a></p>
 </footer>
