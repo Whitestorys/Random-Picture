@@ -1,7 +1,7 @@
 <?php
-$url = explode("\n", file_get_contents('url.txt'));//url数组
-$i = rand(0, count($url));//随机id
-$x = $url[rand(0, $i)];//随机图片
+$url = file('url.txt');//url数组
+$i = array_rand($url);//随机id
+$x = $url[$i];//随机图片url
 $id = $_REQUEST['id'];
 $type = $_REQUEST['type'];
 switch ($type) {
@@ -22,7 +22,7 @@ switch ($type) {
         header("Cache-Control: no-cache");
         header("Pragma: no-cache");
         header("Content-type:application/x-javascript");
-        echo "var pic_random=" . "'" . $url[rand(0, $i)] . "'" . ";";
+        echo "var pic_random=" . "'" . $x . "'" . ";";
         echo "var pic_end=" . count($url) . ";";
         echo "var pic_rdn=" . $i . ";";
         break;
