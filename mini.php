@@ -1,1 +1,1 @@
-<?php  $a=file("url.txt");$b=count($a);$c=$a[rand(0,$b)];header("Location:$c");
+<?php $a=file('url.txt')[array_rand(file('url.txt'))];header("Location:$a");
