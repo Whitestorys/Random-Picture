@@ -1,5 +1,5 @@
 <?php
-$url = file('url.txt');//url数组
+$url = explode("\n", file_get_contents('url.txt'));//url数组
 $i = array_rand($url);//随机id
 $x = $url[$i];//随机图片url
 $id = $_REQUEST['id'];
