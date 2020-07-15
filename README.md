@@ -3,6 +3,8 @@
 
 **实验地址:**  
 <http://miku.ueuo.com/>*(无稳定性保证)*  
+<https://crazy-white.github.io/Random-Picture/description.html>  
+<https://crazy-white.github.io/Random-Picture/show.html>  
 **注意:**  
 [url.txt](http://miku.ueuo.com/url.txt)务必一行一个url，不要留空格什么的  
 [show.php](http://miku.ueuo.com/show.php)用于展示url.txt的所有图片  
